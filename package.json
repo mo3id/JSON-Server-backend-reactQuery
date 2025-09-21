@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server --watch data.json --port $PORT"
+    "start": "json-server --host 0.0.0.0 --watch data.json --port $PORT"
   },
   "dependencies": {
     "json-server": "^0.17.4"
